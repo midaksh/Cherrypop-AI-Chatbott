@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cherry Pop | Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="imglogo">
+            <a href="home.html">
+                <img src="images/cherrypoplogo.png" alt="logo" class="light-logo">
+                <img src="images/logo-white-removebg.png" alt="logo" class="dark-logo" style="display: none;">
+            </a>    
+        </div>
+        <div class="mode-toggle">
+            <label class="switch">
+                <input type="checkbox" id="modeToggle">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+    </div>  
+    <div class="container">
+        <h1>Pop the prompt with AI</h1>
+        <textarea id="prompt" rows="4" placeholder="Ask anything"></textarea>
+        <button onclick="sendPrompt()">Send</button>
+        <div id="response">
+        </div>
+    </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
