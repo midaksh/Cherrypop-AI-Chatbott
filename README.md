@@ -1,8 +1,8 @@
-# Cherrypop-AI-Chatbott
+# 🍒 Cherrypop-AI-Chatbott
 This is an AI Chatbot, web application/
 
 To open the project:
-1. Open "home.html"
+1. Open "index.html"
 2. To read about this site "about.html"
 
 NOTE:
