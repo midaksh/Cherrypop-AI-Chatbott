@@ -1,2 +1,5 @@
 // config.js
-const OPENROUTER_API_KEY = "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";
+const OPENROUTER_API_KEY = "YOUR_OWN_API_KEY";
+
+//go to: https://openrouter.ai/settings/keys
+//Create your own key and past it here above >> RIN 
